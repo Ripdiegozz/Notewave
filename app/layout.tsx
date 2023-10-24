@@ -28,7 +28,6 @@ export const metadata: Metadata = {
       }
     ]
   }
-
 }
 
 export default function RootLayout({
@@ -38,6 +37,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta property="og:url" content="https://notewave-lake.vercel.app/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Notewave"/>
+        <meta property="og:description" content="The connected workspace where ideas come to life."/>
+        <meta property="og:image" content="https://i.imgur.com/QDxqMIS.png"/>
+
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:domain" content="notewave-lake.vercel.app"/>
+        <meta property="twitter:url" content="https://notewave-lake.vercel.app/"/>
+        <meta name="twitter:title" content="Notewave"/>
+        <meta name="twitter:description" content="The connected workspace where ideas come to life."/>
+        <meta name="twitter:image" content="https://i.imgur.com/QDxqMIS.png"/>
+      </head>
       <body className={inter.className}>
         <ConvexClientProvider>
           <EdgeStoreProvider>
