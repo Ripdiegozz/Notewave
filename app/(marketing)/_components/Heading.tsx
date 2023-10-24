@@ -13,11 +13,11 @@ export const Heading = () => {
     return (
         <div className="max-w-3xl space-y-4">
             <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold">
-                Your ideas, documents and plans.
-                In the same place. Welcome to <span className="underline">Notewave</span>
+                Your ideas, documents & plans unified.
+                Welcome to <span className="underline">Notewave</span>
             </h1>
             <h3 className="text-base sm:text-xl md:text-2xl font-medium">
-                Notewave is a new way to organize your ideas, documents and plans. A connected workspace where <br />
+                A connected workspace where <br />
                 better, faster and more connected thinking happens.
             </h3>
             {
