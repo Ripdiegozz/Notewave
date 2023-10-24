@@ -64,9 +64,7 @@ export const CoverImageModal = () => {
                     disabled={isSubmitting}
                     value={file}
                     onChange={onChange}
-                >
-
-                </SingleImageDropzone>
+                />
             </DialogContent>
         </Dialog>
     )
